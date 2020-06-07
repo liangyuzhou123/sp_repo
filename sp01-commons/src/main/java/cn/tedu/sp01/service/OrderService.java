@@ -1,8 +1,8 @@
 package cn.tedu.sp01.service;
 
-import cn.tedu.sp01.pojo.Order;
+import cn.tedu.sp01.pojo.Item;
 
 public interface OrderService {
-	Order getOrder(String orderId);
-	void addOrder(Order order);
+	Item getOrder(String orderId);
+	void addOrder(Item order);
 }
